@@ -1,0 +1,124 @@
+body{
+    background-color: #121212;
+}
+.h1{
+    color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px ;
+    animation: color 8s infinite;
+}
+@keyframes color {
+    0% {color: rgb(143, 143, 143);}
+    10% {color: yellow;}
+    20% {color: green;}
+    30% {color: gray;}
+    40% {color: teal;}
+    50% {color: firebrick;}
+    60% {color: wheat;}
+    70% {color: navajowhite;}
+    80% {color: seagreen;}
+    90% {color: navy;}
+    100% {color: sienna;}
+}
+.h2{
+    color: white;
+    margin-left: 350px;
+    margin-top: -72px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px ;
+    animation: 8s infinite;
+}
+.h3{
+    color: white;
+    margin-left: 550px;
+    margin-top: -72px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px ;
+    animation: 8s infinite;
+}
+.div1{
+    width: auto;
+    height: 10px;
+    background: linear-gradient(to right, #5614b0, #dbd65c);
+    border-radius: 30px;
+    animation: color 8s infinite;
+}
+.div2{
+    width: 400px;
+    height: 400px;
+    margin-left: 900px;
+    background: linear-gradient(to right, #5614b0, #dbd65c);
+    border-radius: 30px;
+    margin-top: 160px;
+    animation: color 8s infinite;
+    transform: rotate(45deg);
+}
+.h4{
+    color: white;
+    margin-left: 50px;
+    margin-top: -218px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px ;
+    animation: color 8s infinite;
+}
+@keyframes color {
+    0% {color: rgb(143, 143, 143);}
+    10% {color: yellow;}
+    20% {color: green;}
+    30% {color: gray;}
+    40% {color: teal;}
+    50% {color: firebrick;}
+    60% {color: wheat;}
+    70% {color: navajowhite;}
+    80% {color: seagreen;}
+    90% {color: navy;}
+    100% {color: sienna;}
+}
+.div3{
+    width: auto;
+    height: 10px;
+    background: linear-gradient(to right, #5614b0, #dbd65c);
+    border-radius: 30px;
+    margin-top: 300px;
+    animation: color 8s infinite;
+}
+.ft1{
+    width: 350px;
+    height: 350px;
+    display: flex; align-items: center;
+    transform: rotate(320deg);
+}
+@media (max-width: 400px) {
+    .div1{
+        margin-top: 50px;
+    }
+    .h2{
+        margin-top: 50px;
+        margin-left: 135px;
+    }
+    .h3{
+        margin-left: 115px;
+        margin-top: 50px;
+    }
+    .h4{
+        margin-top: 100px;
+    }
+    .div2{
+        width: 250px;
+        height: 250px;
+        margin-left: 70px;
+    }
+    .ft1{
+        width: 200px;
+        height: 200px;
+    }
+    .div3{
+        margin-top: -0px;
+    }
+}
